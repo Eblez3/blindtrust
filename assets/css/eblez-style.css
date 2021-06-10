@@ -2,6 +2,50 @@ h1.eblez-title-h1{
     font-size: 0.9em;
 }
 
+h2.eblez-title-h2--footer{
+    font-size:0.8em;
+}
+
 h3.eblez-title-h1{
     font-size: 1.25em;
+}
+
+.footer--eblez{
+    margin-top:100px !important;
+    width:100%;
+}
+
+
+.footer--eblez p{
+    font-size:0.8em;
+}
+
+.footer--eblez-content-logo{
+    width:100%;
+    margin:auto;
+}
+
+.footer--eblez-content-logo>img{
+   width:80px;
+}
+
+.footer--eblez-copyright{
+    width:100%;
+}
+
+.eblez-filarianne{
+    font-size:0.8em;
+}
+
+.eblez-filarianne ul{
+    list-style: none;
+    padding:0;
+}
+
+.eblez-filarianne ul>li{
+    display: inline-block;
+}
+
+.eblez-filarianne ul>li:nth-child(2)::before{
+    content:'>'
 }
